@@ -10,3 +10,30 @@
     background-color: #cc33ff;
     float: left;
 }
+
+.nav #menu{
+    width: 227px;
+    height:95%;
+    margin: 8px;
+    background-color: #9900cc;
+}
+
+.nav #menu a{
+    font-size: 25px;
+    font-family: "Book Antiqua";
+    color: white;
+    text-decoration: none;
+}
+.nav #menu table{
+    padding: 10px;
+}
+.nav #menu table td{
+    /*text-align: center;*/
+    background-color: #9900cc;
+    margin:20px;
+    padding: 40px;
+    border-radius:15px 50px;
+}
+.nav #menu table td:hover{
+    background-color: #c61aff;
+}

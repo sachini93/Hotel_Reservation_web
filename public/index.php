@@ -11,7 +11,7 @@
 <body bgcolor="#cc99ff">
     <div class="main" style="width: 100%; height:1300px; background-color: #cc66ff; border: dotted" >
         <div class="top">
-            <marquee styl>Hotel Levendra</marquee>
+            <marquee style="scroll-padding: ">Hotel Levendra</marquee>
         </div>
         <div class="user">
             <div clas="user" id="login_logout">
@@ -22,7 +22,25 @@
             </div>
         </div>
         <div class="nav">
-
+            <div class="user" id="menu">
+                <table>
+                    <tr>
+                        <td><a href="index.php">Home</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="index.php">About Us</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="index.php">Contact Us</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="index.php">Gallery</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="index.php">Register</a></td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <div class="body">
 
