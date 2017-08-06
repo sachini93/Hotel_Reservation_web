@@ -1,12 +1,12 @@
-.body{
-    width: 72%;
+.nav{
+    width: 20%;
     height:60%;
     border: dotted;
-    margin-left: 2.5px;
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 2.5px;
     margin-top: 5px;
     margin-bottom: 2.5px;
     padding: 10px;
     background-color: #cc33ff;
-    float: right;
+    float: left;
 }
