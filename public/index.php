@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Reservation</title>
+    <title>Hotel Managment</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -42,9 +42,9 @@
                 </table>
             </div>
         </div>
-        <div class="body">
-
-        </div>
+        <?php
+            require ('./reservation/reservation.php');
+        ?>
         <div class="footer">
 
         </div>

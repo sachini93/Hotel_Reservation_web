@@ -10,3 +10,30 @@
     background-color: #cc33ff;
     float: right;
 }
+
+.reservation_body{
+    font-family: "Browallia New";
+    margin: 100px;
+}
+
+.reservation_body .naming-label{
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
+
+.reservation_body .naming-label-radio{
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+}
+
+.reservation_body .data-load-lable{
+    font-weight: 300;
+    font-size: 30px;
+    color: cornsilk;
+    background-color: #cc66ff;
+    border-radius: 10%;
+    height: 10px;
+    width: 100px;
+}
