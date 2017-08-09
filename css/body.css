@@ -9,11 +9,19 @@
     padding: 10px;
     background-color: #cc33ff;
     float: right;
+    background-image: url("../images/form_back_2.jpg"); opacity: 90;
+    background-repeat: no-repeat;
 }
 
 .reservation_body{
     font-family: "Browallia New";
-    margin: 100px;
+    margin: 80px;
+    background-color: #9900cc;
+    height: 600px;
+    padding-left: 130px;
+    padding-right: 20px;
+    padding-top: 20px;
+    opacity: 0.8;
 }
 
 .reservation_body .naming-label{
@@ -30,10 +38,25 @@
 
 .reservation_body .data-load-lable{
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
     color: cornsilk;
-    background-color: #cc66ff;
-    border-radius: 10%;
-    height: 10px;
-    width: 100px;
+    background-color: #cc99ff;
+    border-radius: 8%;
+    display: block;
+    text-align: center;
+    width: 200px;
+    /*#cc66ff*/
+}
+
+.reservation_body #add_reservation ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.reservation_body .input-txt,select ,select option, .calender {
+    background-color:  #f2e6ff;
+    height: 25px;
+    width: 200px;
+    border-radius: 8% 8%;
+    font-size: 18px;
 }

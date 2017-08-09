@@ -19,11 +19,11 @@
                 <table>
                     <tr>
                         <td><label class="naming-label">Customer ID</label></td>
-                        <td><label class="data-load-lable"></label> </td>
+                        <td><label class="data-load-lable">001</label> </td>
                     </tr>
                     <tr>
                         <td><label class="naming-label">Customer Name</label></td>
-                        <td><label class="data-load-lable"></label> </td>
+                        <td><label class="data-load-lable">GPS</label> </td>
                     </tr>
                     <tr>
                         <td><label class="naming-label">Check In</label></td>
@@ -36,7 +36,7 @@
                     <tr>
                         <td><label class="naming-label">Room Type</label></td>
                         <td><select class="selection">
-                                <option>aaa</option>
+                            <option>aaa</option>
                             </select>
                         </td>
                     </tr>
@@ -55,11 +55,11 @@
                     <tr></tr>
 
                     <tr>
-                        <td><label class="naming-label">NUmber of Guests</label></td>
+                        <td><label class="naming-label">Number of Guests</label></td>
                     </tr>
                     <tr>
-                        <td><label class="naming-label">Adults</label></td> <td><input type="text"></td>
-                        <td><label class="naming-label">Kids</label></td> <td><input type="text"></td>
+                        <td><label class="naming-label">Adults</label></td> <td><input type="text" class="input-txt"></td>
+                        <td><label class="naming-label">Kids</label></td> <td><input type="text" class="input-txt"></td>
                     </tr>
                     <tr>
                         <td ><label class="naming-label">Meals</label></td>
