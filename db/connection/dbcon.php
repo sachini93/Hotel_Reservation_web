@@ -2,13 +2,16 @@
 
 //require or include
 
-require('user.php');
+require('../user/user.php');
 
 
 
 $con=mysqli_connect($server,$username,$password,$db);
 if(!$con){
-echo"not establised connection",mysqli_connect_error();
+echo"not established connection",mysqli_connect_error();
+}
+else{
+    //echo"sucess";
 }
 
 

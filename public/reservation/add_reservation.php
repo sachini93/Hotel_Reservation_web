@@ -2,11 +2,10 @@
 <html>
 <head>
 
-    <link rel="stylesheet" href="../css/body.css">
 
 </head>
 <body bgcolor="#cc99ff">
-<div class="body">
+    <div class="">
     <div class="reservation_body">
         <form id="add_reservation" method="post">
             <table>
@@ -70,7 +69,8 @@
             </table>
         </form>
     </div>
-</div>
+    </div>
+
 </body>
 </html>
 

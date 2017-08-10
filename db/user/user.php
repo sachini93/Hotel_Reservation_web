@@ -1,8 +1,8 @@
 <?php 
-$server="172.10.10.14";
+$server="localhost";
 $username="root";
-$password="uoc";
-$db="uoccus";
+$password="";
+$db="hotel_management";
 
 
 ?>
