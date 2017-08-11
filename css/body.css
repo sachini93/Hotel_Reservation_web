@@ -24,12 +24,14 @@
     padding-top: 20px;
     opacity: 0.8;
     float:right;
+    /*z-index: 2;*/
 }
 
 .reservation_body .naming-label{
     font-size: 30px;
     color: white;
     font-weight: 300;
+
 }
 
 .reservation_body .naming-label-radio{
@@ -48,11 +50,13 @@
     text-align: center;
     width: 200px;
     /*#cc66ff*/
+
 }
 
 .reservation_body #add_reservation ul {
     list-style-type: none;
     padding-left: 0px;
+
 }
 
 .reservation_body .input-txt,select ,select option, .calender {
@@ -61,4 +65,5 @@
     width: 200px;
     border-radius: 8% 8%;
     font-size: 18px;
+
 }

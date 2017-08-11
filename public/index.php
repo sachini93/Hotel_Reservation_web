@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="nav">
-            <div class="user" id="menu">
+            <div class="nav" id="menu">
                 <table>
                     <tr>
                         <td><a href="index.php">Home</a></td>
