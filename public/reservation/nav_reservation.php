@@ -13,7 +13,7 @@
                     <td><a href="#" id="home_Reciptionist">Home</a></td>
                 </tr>
                 <tr>
-                    <td><a href="#" target="" id="add_reservation">Add Reservation</a></td>
+                    <td><a href="./add_reservation.php" target="" id="add_reservation">Add Reservation</a></td>
                 </tr>
                 <tr>
                     <td><a href="#">Modify Reservation</a></td>

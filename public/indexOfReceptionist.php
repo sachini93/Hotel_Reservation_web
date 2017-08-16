@@ -47,10 +47,10 @@
 </div>
 <script type="text/javascript">
 
-    $(document).ready('./reservation/nav_reservation.php #add_reservation').click(function(){
+    /*$(document).ready('./reservation/nav_reservation.php #add_reservation').click(function(){
         $(" #body_content").load('./reservation/add_reservation.php ');
 
-    });
+    });*/
 
 </script>
 </body>
