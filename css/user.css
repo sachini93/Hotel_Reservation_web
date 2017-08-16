@@ -1,19 +1,22 @@
 .user{
     width: 95%;
     height:50px;
-    border: dotted;
+
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
     /*margin-bottom: 20px;*/
     padding: 12px;
-    background-color: #cc33ff;
+    background-color:#003366;
 
 }
 .user #login_logout{
     float: right;
     margin: 10px;
     font-size: 20px;
+}
+.user #login_logout a{
+    color: #f2e6ff;
 }
 
 .user #user_img{

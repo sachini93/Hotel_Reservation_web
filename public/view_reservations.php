@@ -6,7 +6,7 @@
 
 <body bgcolor="#cc99ff">
 <div class="">
-    <div class="reservation_body" id="ss">
+    <div class="reservation_body" id="ss" style="padding-right: 130px">
         <form id="add_reservation" method="POST" action="#">
             <table>
                 <tr>
@@ -19,7 +19,7 @@
             <!--reservation_id`, `customer_id`, `check_in`, `check_out`, `room_type`, `room_capacity`, `package_cost`, `adults`, `kids`, `meal_type-->
 
         <?php
-        require "../../db/connection/dbcon.php";
+        require "../db/connection/dbcon.php";
 //var_dump($_POST);
         //var_dump($_POST['search']);
         if(isset($_POST['search'])) {
