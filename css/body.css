@@ -24,6 +24,7 @@
     padding-top: 20px;
     opacity: 0.8;
     float:right;
+    overflow-y: auto;
     /*z-index: 2;*/
 }
 .reservation_body img{
@@ -43,7 +44,7 @@
     font-weight: 300;
 }
 
-.reservation_body .data-load-lable{
+/*.reservation_body .data-load-lable{
     font-weight: 300;
     font-size: 25px;
     color: cornsilk;
@@ -52,9 +53,9 @@
     display: block;
     text-align: center;
     width: 200px;
-    /*#cc66ff*/
+    /*#cc66ff
 
-}
+}*/
 
 .reservation_body #add_reservation ul {
     list-style-type: none;

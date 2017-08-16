@@ -3,10 +3,9 @@
 <head>
     <title>Hotel Managment</title>
     <link rel="stylesheet" href="http://localhost/Hotel management/css/header.css">
-    <link rel="stylesheet" href="../css/body.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/user.css">
-
+    <link rel="stylesheet" href="../../css/body.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/user.css">
 
 </head>
 <body bgcolor="#4a49b5">
@@ -19,33 +18,33 @@
             <a href="login.php">Login</a>
         </div>
         <div class="user" id="user_img">
-            <img src="../images/user1.jpg">
+            <img src="../../images/user1.jpg">
         </div>
     </div>
     <div class="nav">
-        <?php require('nav_reservation.php');?>
+        <?php require('nav_customer.php');?>
     </div>
 
     <div class="body" id="body_content" style="width: 72%; height: 60%" >
 
         <?php
-        require "../db/connection/dbcon.php";
+        //require "../db/connection/dbcon.php";
         if(isset($_GET['link'])){
             $link=$_GET['link'];
             if ($link == '1'){
-                include 'home.php';
+                include 'customer_index.php';
             }
             if ($link == '2'){
-                include 'add_reservation.php';
+                include 'add_customer.php';
             }
             if ($link == '3'){
-                include 'update_reservation.php';
+                include 'update_customer.php';
             }
             if ($link == '4'){
-                include 'view_reservations.php';
+                include 'search_customer.php';
             }
             if ($link == '5'){
-                include 'reports.php';
+                include 'customer_reports.php';
             }
         }  ?>
 

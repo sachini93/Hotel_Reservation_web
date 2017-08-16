@@ -19,12 +19,12 @@
                 ?>
                 <tr>
                     <td><label class="naming-label">Customer NIC</label></td>
-                    <td><input type="text"  name="customer_nic" value="<?php echo $customer_nic_set; ?>"></td>
+                    <td><input type="text" class="input-txt" name="customer_nic" value="<?php echo $customer_nic_set; ?>"></td>
 
                 </tr>
                 <tr>
                     <td><label class="naming-label">Customer Name</label></td>
-                    <td><input type="text" name="customer_name" value="<?php echo $customer_name_set; ?>"></td>
+                    <td><input type="text" class="input-txt" name="customer_name" value="<?php echo $customer_name_set; ?>"></td>
                     <!--<td><label class="data-load-lable" id="customer_name" name="customer_name">--><?php //echo $customer_name_set ?><!--</label></td>-->
                 </tr>
                 <tr>
