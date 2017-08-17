@@ -2,12 +2,23 @@
 <html>
   <head>
     <title>Search food</title>
+      <style>
+          table td{
+              font-size: 20px;
+              color: white;
+
+          }
+          table{
+              margin: 10px;
+          }
+      </style>
+
   </head>
 
   <body>
   <div class="reservation_body" id="ss" style="padding-right: 220px">
       <h1 style="color: white;font-size: 40px">Search Foods</h1>
-        <form method="post" action="SearchFood.php">
+        <form method="post" action="#">
 
 
         <table border="0">

@@ -3,11 +3,17 @@
 <head>
     <title>Hotel Managment</title>
     <link rel="stylesheet" href="http://localhost/Hotel management/css/header.css">
-    <link rel="stylesheet" href="../css/body.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/user.css">
+    <link rel="stylesheet" href="../../css/body.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/user.css">
 
+    <style>
+        .footer p{
+            color: white;
 
+            text-align: center;
+        }
+    </style>
 </head>
 <body bgcolor="#4a49b5">
 <div class="main" id="main" style="width: 100%; height:1300px; background-color: #4a49b5;" >
@@ -16,10 +22,10 @@
     </div>
     <div class="user">
         <div clas="user" id="login_logout">
-            <a href="login.php">Login</a>
+<!--            <a href="login.php">Login</a>-->
         </div>
         <div class="user" id="user_img">
-            <img src="../images/user1.jpg">
+            <img src="../../images/user1.jpg">
         </div>
     </div>
     <div class="nav">
@@ -29,11 +35,11 @@
     <div class="body" id="body_content" style="width: 72%; height: 60%" >
 
         <?php
-        require "../db/connection/dbcon.php";
+        //require "../db/connection/dbcon.php";
         if(isset($_GET['link'])){
             $link=$_GET['link'];
             if ($link == '1'){
-                include 'home.php';
+                include './resevationIndex.php';
             }
             if ($link == '2'){
                 include 'add_reservation.php';
@@ -45,7 +51,7 @@
                 include 'view_reservations.php';
             }
             if ($link == '5'){
-                include 'reports.php';
+                include 'reservations_report.php';
             }
         }  ?>
 
@@ -58,7 +64,7 @@
 
     </div>
     <div class="footer">
-
+        <div class="copyright"><p>&copy; www.lavendra.com  | Lavendra Hotel,Colombo 10 | Contact us 0112345678,01154545367 | All Right Reserved</p></div>
     </div>
 </div>
 

@@ -2,12 +2,23 @@
 <html>
 <head>
 <title>Update Food</title>
+    <style>
+        table td{
+            font-size: 20px;
+            color: white;
+
+        }
+        table{
+            margin: 10px;
+        }
+    </style>
+
 </head>
 
 <body>
 <div class="reservation_body" id="ss" style="padding-right: 220px">
     <h1 style="color: white;font-size: 40px">Update Foods</h1>
-    <form method="post" action="Update Food.php">
+    <form method="post" action="#">
         <table border="0">
             <tbody>
             <tr>
@@ -28,7 +39,7 @@
         if($res2!=""){
             while ($row = mysqli_fetch_array($res2))
             {
-                echo '<form method="post" action="update Food.php">';
+                echo '<form method="post" action="#">';
                 echo '<table width="600px" align="center" cellpadding="10"><tbody>';
                 echo '<tr><td>Food Category</td>';
                 echo '<td>';

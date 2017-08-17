@@ -83,7 +83,8 @@
 
 
         <?php
-        require "../db/connection/dbcon.php";
+        require '../../db/connection/dbcon.php';
+        //require "../db/connection/dbcon.php";
         //var_dump($_POST['send']);
         //change to insert when submit is clicked only!!
         function alert($msg) {

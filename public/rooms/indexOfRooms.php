@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="../../css/body.css">
     <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="../../css/user.css">
+    <style>
+        .footer p{
+            color: white;
+
+            text-align: center;
+        }
+    </style>
 
 </head>
 <body bgcolor="#4a49b5">
@@ -15,7 +22,7 @@
     </div>
     <div class="user">
         <div clas="user" id="login_logout">
-            <a href="login.php">Login</a>
+<!--            <a href="login.php">Login</a>-->
         </div>
         <div class="user" id="user_img">
             <img src="../../images/user1.jpg">
@@ -57,7 +64,7 @@
 
     </div>
     <div class="footer">
-
+        <div class="copyright"><p>&copy; www.lavendra.com  | Lavendra Hotel,Colombo 10 | Contact us 0112345678,01154545367 | All Right Reserved</p></div>
     </div>
 </div>
 

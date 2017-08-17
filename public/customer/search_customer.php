@@ -2,12 +2,23 @@
 <html>
 <head>
 <title>Search customer</title>
+
+    <style>
+        table td{
+            font-size: 20px;
+            color: white;
+
+        }
+        table{
+            margin: 10px;
+        }
+    </style>
 </head>
 
 <body>
 <div class="reservation_body" id="ss" style="padding-right: 220px">
     <h1 style="color: white;font-size: 40px">Search Customer</h1>
-        <form method="post" action="search_customer.php">
+        <form method="post" action="#">
 
 
         <table border="0">
@@ -25,14 +36,19 @@
           require '../../db/connection/dbcon.php';
           if(isset($_POST['search'])){
               $nic=$_POST['nic'];
+              //var_dump($nic);
               $sql ="SELECT * FROM customer_table WHERE nic='$nic'";
               $result=mysqli_query($con,$sql);
-              var_dump($result);
+              //var_dump($result);
               if($result!=""){
                   echo "<div>";
+
                   while ($row = mysqli_fetch_array($result))
                   {
                       require 'cus_search_details.php';
+
+
+
 
 
 

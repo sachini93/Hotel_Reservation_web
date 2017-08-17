@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../../css/nav.css">
 </head>
 <body bgcolor="#cc99ff">
 

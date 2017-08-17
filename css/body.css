@@ -1,17 +1,17 @@
 .body{
-    width: 72%;
-    height:58%;
+     width: 72%;
+     height:58%;
 
-    margin-left: 2.5px;
-    margin-right: 27px;
-    margin-top: 5px;
-    margin-bottom: 2.5px;
-    padding: 7px;
-    background-color: #3a43af;
-    float: right;
-    background-image: url("../images/form_back_22.jpg"); opacity: 90;
-    background-repeat: no-repeat;
-}
+     margin-left: 2.5px;
+     margin-right: 27px;
+     margin-top: 5px;
+     margin-bottom: 2.5px;
+     padding: 7px;
+     background-color: #3a43af;
+     float: right;
+     background-image: url("../images/form_back_22.jpg"); opacity: 90;
+     background-repeat: no-repeat;
+ }
 
 .reservation_body{
 

@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="../../css/footer.css">
     <link rel="stylesheet" href="../../css/user.css">
 
+    <style>
+        .footer p{
+            color: white;
+
+            text-align: center;
+        }
+    </style>
+
 </head>
 <body bgcolor="#4a49b5">
 <div class="main" id="main" style="width: 100%; height:1300px; background-color: #4a49b5;" >
@@ -54,10 +62,9 @@
 
     </div>
     <div id="reservation_content">
-
-    </div>
-    <div class="footer">
-
+        <div class="footer">
+            <div class="copyright"><p>&copy; www.lavendra.com  | Lavendra Hotel,Colombo 10 | Contact us 0112345678,01154545367 | All Right Reserved</p></div>
+        </div>
     </div>
 </div>
 
