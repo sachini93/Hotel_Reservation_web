@@ -1,0 +1,34 @@
+.user{
+    width: 95%;
+    height:50px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /*margin-bottom: 20px;*/
+    padding: 12px;
+    background-color:#003366;
+
+}
+.user #login_logout{
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+}
+.user #login_logout a{
+    color: #f2e6ff;
+}
+
+.user #user_img{
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 6px;
+    width: 75px;
+    height: 40px;
+}
+
+.user #user_img img{
+    width: 75px;
+    height: 40px;
+}

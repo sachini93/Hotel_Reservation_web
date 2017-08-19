@@ -1,0 +1,73 @@
+.body{
+     width: 72%;
+     height:58%;
+
+     margin-left: 2.5px;
+     margin-right: 27px;
+     margin-top: 5px;
+     margin-bottom: 2.5px;
+     padding: 7px;
+     background-color: #3a43af;
+     float: right;
+     background-image: url("../images/form_back_22.jpg"); opacity: 90;
+     background-repeat: no-repeat;
+ }
+
+.reservation_body{
+
+    font-family: "Browallia New";
+    margin: 80px;
+    background-color: #04367d;  /* #9900cc;*/
+    height: 600px;
+    padding-left: 130px;
+    padding-right: 20px;
+    padding-top: 20px;
+    opacity: 0.8;
+    float:right;
+    overflow-y: auto;
+    /*z-index: 2;*/
+}
+.reservation_body img{
+    vertical-align:middle;
+}
+
+.reservation_body .naming-label{
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+
+}
+
+.reservation_body .naming-label-radio{
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+}
+
+/*.reservation_body .data-load-lable{
+    font-weight: 300;
+    font-size: 25px;
+    color: cornsilk;
+    background-color: #cc99ff;
+    border-radius: 8%;
+    display: block;
+    text-align: center;
+    width: 200px;
+    /*#cc66ff
+
+}*/
+
+.reservation_body #add_reservation ul {
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+
+.reservation_body .input-txt,select ,select option, .calender {
+    background-color:  #f2e6ff;
+    height: 25px;
+    width: 200px;
+    border-radius: 8% 8%;
+    font-size: 18px;
+
+}

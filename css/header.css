@@ -1,0 +1,12 @@
+.top{
+    width: 95%;
+    height:150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #003366;
+    background-image: url("../images/2919_preview_lg.jpg");
+    background-repeat: no-repeat;
+}
