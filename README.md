@@ -1,9 +1,14 @@
 # Hotel_Reservation_web
+A web application for implementing the core bussiness processes of a hotel. 
+Used technologies: PHP- (CodeIgnitor),HTML,CSS,Bootstarp.
+		
+
+
 all css fles inside-> css folder
 all html files inside->public folder; index .hp is the home page
 all js scripts inside ->js folder
 web page has 5 main div areas; 1)header
-							   2)user
+				2)user
                                3)navigation bar(nav)
                                4)body
                                5)footer
